@@ -23,21 +23,21 @@ pr.then((result) => {
 // callback Hell 예시
 const f1 = function(callback) {
     setTimeout(function() {
-        console.log("1번 주문 완료");
+        console.log("콜백 1번 주문 완료");
         callback();
     }, 1500);
 }
 
 const f2 = function(callback) {
     setTimeout(function() {
-        console.log("2번 주문 완료");
+        console.log("콜백 2번 주문 완료");
         callback();
-    }, 1500);
+    }, 5000);
 }
 
 const f3 = function(callback) {
     setTimeout(function() {
-        console.log("3번 주문 완료");
+        console.log("콜백 3번 주문 완료");
         callback();
     }, 1500);
 }
